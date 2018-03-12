@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="1">
+
+  <testsuite name="MARSBPCHART.MARSBPCHART"
+    errors="1" failures="0" hostname="" id="" package="MARSBPCHART" skipped="0"
+    tests="1" time="0.01000" timestamp="Mon, 12 Mar 2018 17:50:28 GMT">
+  
+    <testcase name="Demo test Google" classname="MARSBPCHART.MARSBPCHART" time="0.01000" assertions="0">
+    </testcase>
+  
+
+  
+    <system-err>
+        Error while running [MARSBPCHART /  MARSBPCHART / Demo test Google]:
+
+  TypeError: Cannot read property &#39;MARSBPCHART&#39; of undefined
+    at Object.module.exports.Demo test Google (C:\Users\johnembry\Developer\UITests\tests\MARSBPCHART\MARSBPCHART.js:5:36)
+    at Object.&lt;anonymous&gt; (C:\Users\johnembry\Developer\UITests\node_modules\nightwatch\lib\util\utils.js:35:8)
+    at Module.callAsync (C:\Users\johnembry\Developer\UITests\node_modules\nightwatch\lib\runner\module.js:75:18)
+    at C:\Users\johnembry\Developer\UITests\node_modules\nightwatch\lib\runner\testcase.js:77:43
+    at _fulfilled (C:\Users\johnembry\Developer\UITests\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\Users\johnembry\Developer\UITests\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\Users\johnembry\Developer\UITests\node_modules\q\q.js:796:13)
+    at C:\Users\johnembry\Developer\UITests\node_modules\q\q.js:556:49
+    at runSingle (C:\Users\johnembry\Developer\UITests\node_modules\q\q.js:137:13)
+    at flush (C:\Users\johnembry\Developer\UITests\node_modules\q\q.js:125:13)
+    </system-err>
+  
+
+  
+  </testsuite>
+</testsuites>
