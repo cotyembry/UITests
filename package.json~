@@ -1,0 +1,19 @@
+{
+  "name": "healthpic-ui-tests",
+  "version": "1.0.0",
+  "description": "Logic written to navigate to each particular .csp page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HealthPic/UITests.git"
+  },
+  "author": "John Coty Embry",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HealthPic/UITests/issues"
+  },
+  "homepage": "https://github.com/HealthPic/UITests#readme"
+}
